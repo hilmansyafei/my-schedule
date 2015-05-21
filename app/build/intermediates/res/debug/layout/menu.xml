@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:radius="8px"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/jad_kul"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#992f2f"
+            android:layout_margin="4dp"
+            android:text="Jadwal Kuliah"
+            android:onClick="Jad_kul"
+            />
+        <Button
+            android:id="@+id/jad_dos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#ff342b99"
+            android:layout_margin="4dp"
+            android:text="Jadwal Dosen"
+            android:onClick="Jad_dos"
+            />
+        <Button
+            android:id="@+id/kal_ak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#ff4d991a"
+            android:layout_margin="4dp"
+            android:text="Kalender Akademik"
+            android:onClick="kal_ak"
+            />
+        <Button
+            android:id="@+id/jad_uts_uas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#ff4d991a"
+            android:layout_margin="4dp"
+            android:text="Jadwal UTS/UAS"
+            android:onClick="ujian"
+            />
+        <Button
+            android:id="@+id/cek_nilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#ff4d991a"
+            android:layout_margin="4dp"
+            android:text="Cek Nilai"
+            android:onClick="cek_nilai"
+            />
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/E:/pemrogaman%20android/LihatJadwal/app/src/main/res/layout/menu.xml -->
