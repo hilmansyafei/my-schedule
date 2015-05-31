@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#f4511e">
 
     <LinearLayout
         android:orientation="vertical"
@@ -47,6 +48,7 @@
             android:text="Cek Nilai"
             android:id="@+id/button"
             android:layout_gravity="center_horizontal"
-            android:onClick="cek_nilai"/>
+            android:onClick="cek_nilai"
+            android:background="#1976d2"/>
     </LinearLayout>
 </RelativeLayout>

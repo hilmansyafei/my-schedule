@@ -1314,12 +1314,12 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09002e;
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
-        public static final int action_settings=0x7f090054;
+        public static final int action_settings=0x7f090053;
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090016;
         public static final int beginning=0x7f090013;
         public static final int button=0x7f090042;
-        public static final int cek_nilai=0x7f090053;
+        public static final int cek_nilai=0x7f090052;
         public static final int checkbox=0x7f090029;
         public static final int collapseActionView=0x7f090017;
         public static final int decor_content_parent=0x7f09002f;
@@ -1342,8 +1342,7 @@ containing a value of this type.
         public static final int ipk=0x7f090043;
         public static final int jad_dos=0x7f090050;
         public static final int jad_kul=0x7f09004f;
-        public static final int jad_uts_uas=0x7f090052;
-        public static final int kal_ak=0x7f090051;
+        public static final int jad_uts_uas=0x7f090051;
         public static final int kode_matkul=0x7f09004a;
         public static final int listMode=0x7f090009;
         public static final int list_item=0x7f090025;

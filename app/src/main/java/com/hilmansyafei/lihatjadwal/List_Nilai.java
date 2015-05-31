@@ -82,13 +82,7 @@ public class List_Nilai extends ListActivity {
                 String description = ((TextView) view.findViewById(R.id.nilai))
                         .getText().toString();
 
-                // Starting single contact activity
-//                Intent in = new Intent(getApplicationContext(),
-//                        SingleContactActivity.class);
-//                in.putExtra(TAG_NAME, name);
-//                in.putExtra(TAG_EMAIL, cost);
-//                in.putExtra(TAG_PHONE_MOBILE, description);
-//                startActivity(in);
+
 
             }
         });
@@ -138,11 +132,6 @@ public class List_Nilai extends ListActivity {
                     for (int i = 1; i < contacts.length(); i++) {
                         JSONObject c = contacts.getJSONObject(i);
 
-//                        String id = c.getString(TAG_ID);
-//                        String name = c.getString(TAG_NAME);
-//                        String email = c.getString(TAG_EMAIL);
-//                        String address = c.getString(TAG_ADDRESS);
-//                        String gender = c.getString(TAG_GENDER);
 
                         String matkul = c.getString("matkul");
                         String kode_matkul = c.getString("kode_matkul");
@@ -151,11 +140,7 @@ public class List_Nilai extends ListActivity {
 
 
 
-                        // Phone node is JSON Object
-//                        JSONObject phone = c.getJSONObject(TAG_PHONE);
-//                        String mobile = phone.getString(TAG_PHONE_MOBILE);
-//                        String home = phone.getString(TAG_PHONE_HOME);
-//                        String office = phone.getString(TAG_PHONE_OFFICE);
+
 
                         // tmp hashmap for single contact
                         HashMap<String, String> contact = new HashMap<String, String>();

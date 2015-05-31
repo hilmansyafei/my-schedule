@@ -346,12 +346,12 @@ int id action_menu_presenter 0x7f090003
 int id action_mode_bar 0x7f09002e
 int id action_mode_bar_stub 0x7f09002d
 int id action_mode_close_button 0x7f090020
-int id action_settings 0x7f090054
+int id action_settings 0x7f090053
 int id activity_chooser_view_content 0x7f090021
 int id always 0x7f090016
 int id beginning 0x7f090013
 int id button 0x7f090042
-int id cek_nilai 0x7f090053
+int id cek_nilai 0x7f090052
 int id checkbox 0x7f090029
 int id collapseActionView 0x7f090017
 int id decor_content_parent 0x7f09002f
@@ -374,8 +374,7 @@ int id image 0x7f090023
 int id ipk 0x7f090043
 int id jad_dos 0x7f090050
 int id jad_kul 0x7f09004f
-int id jad_uts_uas 0x7f090052
-int id kal_ak 0x7f090051
+int id jad_uts_uas 0x7f090051
 int id kode_matkul 0x7f09004a
 int id listMode 0x7f090009
 int id list_item 0x7f090025

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="fill_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#7986cb">
 
     <LinearLayout
         android:orientation="vertical"
@@ -17,7 +18,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:background="#992f2f"
+            android:background="#f44336"
             android:layout_margin="4dp"
             android:text="Jadwal Kuliah"
             android:onClick="Jad_kul"
@@ -27,27 +28,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:background="#ff342b99"
+            android:background="#283593"
             android:layout_margin="4dp"
             android:text="Jadwal Dosen"
             android:onClick="Jad_dos"
             />
-        <Button
-            android:id="@+id/kal_ak"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:background="#ff4d991a"
-            android:layout_margin="4dp"
-            android:text="Kalender Akademik"
-            android:onClick="kal_ak"
-            />
+        <!--<Button-->
+            <!--android:id="@+id/kal_ak"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:background="#ff4d991a"-->
+            <!--android:layout_margin="4dp"-->
+            <!--android:text="Kalender Akademik"-->
+            <!--android:onClick="kal_ak"-->
+            <!--/>-->
         <Button
             android:id="@+id/jad_uts_uas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:background="#ff4d991a"
+            android:background="#4db6ac"
             android:layout_margin="4dp"
             android:text="Jadwal UTS/UAS"
             android:onClick="ujian"
@@ -57,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:background="#ff4d991a"
+            android:background="#d4e157"
             android:layout_margin="4dp"
             android:text="Cek Nilai"
             android:onClick="cek_nilai"

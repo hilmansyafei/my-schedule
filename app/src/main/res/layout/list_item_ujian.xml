@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:paddingBottom="2dip"
         android:paddingTop="6dip"
-        android:textColor="#43bd00"
+        android:textColor="#c5e1a5"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -20,13 +20,13 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="2dip"
-        android:textColor="#acacac" />
+        android:textColor="#3e2723" />
     <TextView
         android:id="@+id/waktu"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="2dip"
-        android:textColor="#acacac" />
+        android:textColor="#3e2723" />
 
     <!-- Mobile number label -->
     <TextView
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:gravity="left"
         android:text="Mobile: "
-        android:textColor="#5d5d5d"
+        android:textColor="#3e2723"
         android:textStyle="bold" />
 
 </LinearLayout>

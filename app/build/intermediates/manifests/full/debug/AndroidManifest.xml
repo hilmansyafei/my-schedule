@@ -13,18 +13,18 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Schedule"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.hilmansyafei.lihatjadwal.Splahscreen"
-            android:label="@string/app_name" >
+            android:name="com.hilmansyafei.lihatjadwal.Pilih_Menu"
+            android:label="Schedule" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hilmansyafei.lihatjadwal.Pilih_Menu" />
+        <!-- <activity android:name=".Pilih_Menu"/> -->
         <activity android:name="com.hilmansyafei.lihatjadwal.LIst_Jadwal" />
         <activity android:name="com.hilmansyafei.lihatjadwal.Input_data" />
         <activity android:name="com.hilmansyafei.lihatjadwal.List_ujian" />
